@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Nest Market",
+    "slug": "nest-market-prototype",
+    "scheme": "nestmarket",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "需要相册权限才能选择商品或转租图片。"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {}
+  }
+}
